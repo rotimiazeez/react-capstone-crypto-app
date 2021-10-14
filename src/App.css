@@ -1,58 +1,197 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
+li,
 a {
+  list-style-type: none;
   text-decoration: none;
-  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+img {
+  opacity: 0.8;
 }
 
-.App-header {
-  min-height: 100vh;
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.bg-red {
+  background-color: #ec638a;
+}
+
+.bg-dark-red {
+  background-color: #d94d75;
+}
+
+/*  HEADER */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d94d75;
+  color: #fff;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 75px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.header-button {
+  display: flex;
+  align-items: center;
 }
 
-.items {
-  margin: 15px;
+.header-options > * {
+  margin-left: 15px;
+  cursor: pointer;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto auto;
+.back-btn {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.back-btn,
+.header-year {
+  display: inline-block;
+}
+
+.stats-by {
+  background-color: #ec638a;
+  color: #fff;
+  padding: 10px 4px;
+}
+
+/*  CURRENCY DETAILS */
+
+.currency-detail-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.currency-detail-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.currency-detail-ul > li {
+  padding: 20px 0;
+  background-color: #ec638a;
+  color: #fff;
+}
+
+.crypto-name {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.crypto-value {
+  text-align: right;
+  width: 100%;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.crypto-value-name {
+  font-size: 30px;
+}
+
+/*  CURRENCY VALUE WRAPPER */
+.crypto-value-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crypto-value-wrapper > li {
+  width: 50%;
+  height: 80%;
+}
+
+.crypto-ul > li {
+  width: 50%;
+}
+
+.currency-detail-ul li:nth-child(even) {
+  background-color: #d94d75;
+}
+
+.crypto-value-wrapper > img {
+  width: 20%;
+}
+
+.crypto-image {
+  width: 100%;
+  height: 100%;
+}
+
+.image-wrapper {
+  text-align: left;
+}
+
+/*  CRYPTO VALUE */
+
+.crypto-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crypto-main {
+  flex-direction: column;
+}
+
+.crypto-main .image-wrapper {
+  width: 50%;
+  height: 50%;
+}
+
+.breakdown {
+  color: white;
   padding: 10px;
-  grid-row-gap: 60px;
-  grid-column-gap: 5px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
+.highest-jump {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
 
-  50% {
-    transform: translateY(10px);
-  }
+.highest-jump > div {
+  width: 50%;
+}
 
-  100% {
-    transform: translateY(0);
-  }
+.highest-img {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.highest-info {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.current-rank-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rank {
+  padding: 5px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: #ec638a;
+  color: #fff;
+  font-weight: bold;
 }
