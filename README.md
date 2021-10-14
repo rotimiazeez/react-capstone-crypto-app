@@ -1,44 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# REACT & REDUX CRYPTO APP
 
-In the project directory, you can run:
+> This React capstone project (remember what are they?)is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-### `npm start`
+You will select an API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- one page with a list of Cryptocurrencies that could be filtered by current ranking.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- one page for the Cryptocurrency details for example: price in USD, current rank, symbol, market value e.t.c.
 
-### `npm test`
+![Screenshot (74)](https://user-images.githubusercontent.com/44624138/137391736-5f5777b1-386e-4fa1-9956-14195834f391.png)
+![Screenshot (75)](https://user-images.githubusercontent.com/44624138/137391766-d0e9b471-fe9a-464f-bb9f-845822c3348c.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- JavaScript ES6
+- JSX
+- HTML & CSS
+- Bootstrap
+- Material UI
+- React and Redux
+- Git and Github flow
+- VSCode
+- Linter Checkers
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ## Deployment Live Demo
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ - Deployed with Netlify
+  - [Live Demo](https://) -->
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- [Node.js](https://nodejs.org/en/download/) already downloaded.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project using the command `git clone https://github.com/DanSam5K/react-capstone-crypto-app.git`
+- `cd <clone>` folder
+- Run `npm install` to install all project dependencies
+- Run `npm start` in your local browser or using Live Server in Visual Studio Code.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author 👤 
 
-## Learn More
+👨‍💻 **Azeez Rotimi Arigbabuwo**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github: [@rotimiazeez](https://github.com/rotimiazeez)
+- Twitter: [@harzeyzh](https://twitter.com/Harzeyzh)
+- Linkedin: [@azeezrotimi019](https://www.linkedin.com/in/azeezrotimi019/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rotimiazeez/react-capstone-crypto-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Hat tip to Nelson Sakwa on Behance. 🔰
+- Inspiration 💘
+- Microverse program ⚡
+- My standup team 😍
+- My partners 😘
+- MicroBros 😜
+- My family's support 🙌
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
