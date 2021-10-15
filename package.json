@@ -12,6 +12,7 @@
     "bootstrap": "^5.1.1",
     "eslint-config-airbnb": "^18.2.1",
     "hamburger-react": "^2.4.1",
+    "msw": "^0.35.0",
     "msw-client": "^2.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -54,16 +55,16 @@
   },
   "rules": {
     "import/extensions": [
-       "error",
-       "ignorePackages",
-       {
-         "js": "never",
-         "jsx": "never",
-         "ts": "never",
-         "tsx": "never"
-       }
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ]
- },
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",

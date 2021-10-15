@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React, { useEffect } from 'react';
 import './App.css';
 import { useDispatch } from 'react-redux';
