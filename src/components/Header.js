@@ -1,4 +1,3 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 import React from 'react';
 import PropTypes from 'prop-types';
 import SettingsIcon from '@material-ui/icons/Settings';
