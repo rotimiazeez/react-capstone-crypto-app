@@ -25,24 +25,30 @@ You will select an API that provides numeric data about a topic that you like an
 - VSCode
 - Linter Checkers
 
-<!-- ## Deployment Live Demo
+## Deployment Live Demo
 
  - Deployed with Netlify
-  - [Live Demo](https://) -->
+  - [Live Demo](https://crypto-app-by-rotimi-azeez.netlify.app/#/)
+
+## Loom Video
+
+  - [Video Link](https://www.loom.com/share/300020e81da147c784ead17058518742)
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- IDE to edit and run the code (use Visual Studio Code 🔥).
 - [Node.js](https://nodejs.org/en/download/) already downloaded.
 
 ### Install
 
 To get a local copy up and running follow these simple example steps.
 - Open terminal
-- Clone this project using the command `git clone https://github.com/DanSam5K/react-capstone-crypto-app.git`
+- Clone this project using the command `git clone https://github.com/rotimiazeez/react-capstone-crypto-app.git`
 - `cd <clone>` folder
 - Run `npm install` to install all project dependencies
 - Run `npm start` in your local browser or using Live Server in Visual Studio Code.
