@@ -36,7 +36,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["airbnb-typescript"]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
