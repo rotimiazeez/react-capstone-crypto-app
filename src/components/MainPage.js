@@ -30,7 +30,6 @@ const handleChange = (limit, dispatch) => {
 const MainPage = () => {
   const state = useSelector((state) => state.value);
   const dispatch = useDispatch();
-  // UGLY CODE INCOMING!
   let rows = 0;
   let col = 0;
   const crypto = state.map((elem) => {
@@ -42,7 +41,6 @@ const MainPage = () => {
     if ((rows + col) % 2 === 0) cl = 'crypto-value-wrapper crypto-main bg-dark-red';
     else cl = 'crypto-value-wrapper crypto-main bg-red';
     col += 1;
-    // NOT DEAD YET?
     return (
       <li key={elem.name}>
         <Link to={`/${elem.name}`}>
