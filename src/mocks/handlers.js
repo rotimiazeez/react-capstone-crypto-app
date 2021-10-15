@@ -1,4 +1,3 @@
-/* eslint import/no-extraneous-dependencies:off */
 import { rest } from 'msw';
 
 const response = {

@@ -3,11 +3,11 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { useDispatch } from 'react-redux';
 import { Switch, Route, HashRouter as Router } from 'react-router-dom';
-import { MainPage } from './Components/MainPage';
-import { Details } from './Components/Details';
+import MainPage from './Components/MainPage';
+import Details from './Components/Details';
 import { loadCrypto } from './redux/reducers/cryptoReducers';
 
-function App() {
+const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadCrypto());
@@ -25,6 +25,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;
