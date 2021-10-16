@@ -1,10 +1,9 @@
-/* eslint-disable import/extensions */
 import React, { useEffect } from 'react';
 import './App.css';
 import { useDispatch } from 'react-redux';
 import { Switch, Route, HashRouter as Router } from 'react-router-dom';
-import MainPage from './Components/MainPage';
-import Details from './Components/Details';
+import MainPage from './components/MainPage';
+import Details from './components/Details';
 import { loadCrypto } from './redux/reducers/cryptoReducers';
 
 const App = () => {
